@@ -1,0 +1,16 @@
+.image-item {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .image-item:hover {
+    transform: scale(1.05);
+  }
+  
